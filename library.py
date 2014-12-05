@@ -1,4 +1,5 @@
 class Library(object):
+	'A simple library that holds a list of shelves.'
 
 	def __init__(self, name):
 		self.name = name
@@ -16,6 +17,7 @@ class Library(object):
 
 
 class Shelf(object):
+	'Shelves hold a list of books.'
 
 	def __init__(self, number):
 		self.number = number
@@ -37,6 +39,7 @@ class Shelf(object):
 
 
 class Book(object):
+	'Books have a title, an author, and a shelf number.'
 
 	def __init__(self, title, author):
 		self.title = title
