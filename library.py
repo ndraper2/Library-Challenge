@@ -39,7 +39,7 @@ class Shelf(object):
 
 
 class Book(object):
-	'Books have a title, an author, and a shelf number.'
+	'Books have a title, an author, and a shelf.'
 
 	def __init__(self, title, author):
 		self.title = title
